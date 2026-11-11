@@ -1,0 +1,185 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    background-color: #d0d0d4;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.pagina {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+header {
+    border-bottom: 3px solid white;
+    padding: 4px;
+}
+
+.logo-principal {
+    display: block;
+    width: 90px;
+    height: auto;
+    margin: auto;
+}
+
+
+
+.presentacion {
+    padding: 15px 30px 5px;
+}
+
+.presentacion h1 {
+    color: yellow;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.poster {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin: auto;
+}
+
+.presentacion h2 {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    margin: 15px 0;
+}
+
+.presentacion p {
+    font-size: 10px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.presentacion h3 {
+    font-size: 11px;
+    margin: 12px 0;
+}
+
+
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.boton {
+    display: inline-block;
+    width: 160px;
+    background-color: #a61920;
+    color: white;
+    padding: 7px 5px;
+    text-decoration: none;
+    font-size: 9px;
+    text-align: center;
+}
+
+.boton:hover {
+    background-color: #ed1d24;
+}
+
+
+
+.trailer {
+    padding: 10px 30px 15px;
+}
+
+.separador {
+    display: block;
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto 20px;
+}
+
+.trailer h2 {
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+.imagen-trailer {
+    max-width: 280px;
+    margin: 12px auto;
+}
+
+.imagen-trailer img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.trailer p {
+    font-size: 10px;
+    line-height: 1.5;
+    margin: 12px 0;
+}
+
+
+
+footer {
+    padding: 15px 25px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.logos img {
+    width: auto;
+    max-width: 65px;
+    max-height: 28px;
+    object-fit: contain;
+}
+
+footer p {
+    color: #aaa;
+    text-align: left;
+    font-size: 8px;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+
+
+
+@media (max-width: 550px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .presentacion,
+    .trailer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .presentacion h2,
+    .trailer h2 {
+        font-size: 14px;
+    }
+}
